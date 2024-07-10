@@ -29,7 +29,7 @@ export const loginLandlord = async (userData) => {
   export const loginTenant = async (userData) => {
     try {
       console.log(userData);
-      const response = await axios.post('api/tenant/login', userData);
+      const response = await axios.post('/tenant/login', userData);
       return response.data;
     } catch (error) {
       throw error.response.data;
