@@ -27,7 +27,7 @@ const HomePage = () => {
 
   return (
     <div>
-      // <header className="header">
+      
         <nav className="navbar-home">
           <ul className="nav-list-home">
             <li>
@@ -37,7 +37,7 @@ const HomePage = () => {
             </li>
           </ul>
         </nav>
-      // </header>
+      
       <main className="main-content">
         <h1>Available Properties</h1>
         <div className="properties-list">
